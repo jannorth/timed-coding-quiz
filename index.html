@@ -5,21 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Timed Coding Quiz</title>
-    <style src="/style.css"></style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>time and score</header>
-    <h1>Timed Coding Quiz</h1>
-    <h2>Question</h2>
-    <ul>
-        <li>Choice A</li>
-        <li>Choice B</li>
-        <li>Choice C</li>
-        <li>Choice D</li>
-    </ul>
-    <button type="button" id="buttonStart">
-        START
-    </button>
+    <div id="startPage">
+        <button type="button" id="buttonStart">
+            START
+       </button>
+    </div>
+    <div id="questionsDiv" class="hide">
+        <h2 id="question"></h2>
+        <h3 id="answerChoices"></h3>  
+    </div>
+    <div id="endScreen" class="hide">
+        <h2>End Screen</h2>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>
