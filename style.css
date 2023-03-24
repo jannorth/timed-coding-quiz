@@ -1,9 +1,46 @@
 * {
-   display: block;
-   align-items: center;
-   justify-content: center;
+   display: inline-grid;
+   justify-content: space-around;
+   font-family: monospace;
+   background-color: gainsboro;
+}
+
+head {
+   display: none;
 }
 
 .hide {
    display: none;
+}
+
+nav {
+   font-size: 50px;
+   padding: 30px;
+}
+
+header {
+   font-size: 30px;
+   padding: 15px;
+}
+
+#question {
+   padding: 25px;
+   text-align: center;
+}
+
+#questionsDiv {
+   font-size: 20px;
+}
+
+button {
+   font-size: 30px;
+   padding: 15px;
+   margin: 5px;
+   box-shadow: 5px 5px slategray;
+   border-radius: 10px;
+   background-color: azure;
+}
+
+button:hover {
+   background-color: rgb(164, 246, 246);
 }
